@@ -9,7 +9,8 @@
 	<!-- JS - TEXTILLATE -->
 	<link href="js/textillate-master/jquery.textillate.js">
 </head>
-<body>
+<body>	
+	<b>TEST</b>
 	<h1 class="tlt">
 		<ul class="texts">
 			<li data-out-effect="fadeOut" data-out-shuffle="true"></li>
