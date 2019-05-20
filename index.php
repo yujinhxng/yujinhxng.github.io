@@ -10,12 +10,7 @@
 	<link href="js/textillate-master/jquery.textillate.js">
 </head>
 <body>
-	<h1 class="tlt">
-		<ul class="texts">
-			<li data-out-effect="fadeOut" data-out-shuffle="true"></li>
-			<li data-in-effect="fadeIn">Angeline</li>
-		</ul>
-	</h1>
+	<h1 class="tlt">ANGELINE</h1>
 
 	<script type="text/javascript">
 		$(".tlt").textillate();
