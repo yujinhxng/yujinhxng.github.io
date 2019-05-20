@@ -4,7 +4,7 @@
 	<title>YUJINHXNG - Home</title>
 
 	<!-- CSS -->
-	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap-4.3.1-dist/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-4.3.1-dist/css/bootstrap.min.css">
 	<!-- JS  -->
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<!-- JS - TEXTILLATE -->
@@ -13,10 +13,22 @@
 	<link rel="stylesheet" href="js/animate.css-master/animate.css">
 </head>
 <body>
-	<p class="demo">ANGELINE ANG - YUJIN</p>
+	<h1 class="demo">ANGELINE ANG - YUJIN</h1>
 	<script>
 		$(function(){
-			$(".demo").textillate();
+			$(".demo").textillate({
+				in:{
+					effect: "fadeIn",
+					shuffle: false,
+					sequence: true
+				},
+				out:{
+					effect: "fadeOut",
+					shuffle: false,
+					sequence: true
+				},
+				loop: true
+			});
 		})
 	</script>
 </body>
