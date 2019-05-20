@@ -10,10 +10,12 @@
 	<link href="js/textillate-master/jquery.textillate.js">
 </head>
 <body>
-	<h1 class="tlt">ANGELINE</h1>
+	<h1 class="tlt" data-in-effect="fadeIn">ANGELINE</h1>
 
 	<script type="text/javascript">
-		$(".tlt").textillate();
+		$(".tlt").textillate({
+			in: {effect: "fadeIn"}
+		});
 	</script>
 </body>
 </html>
